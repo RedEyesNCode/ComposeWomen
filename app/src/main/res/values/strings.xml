@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">composewomenandroid</string>
+    <string name="title_activity_otp_verfication">OtpVerficationActivity</string>
+    <string name="title_activity_complete_profile">CompleteProfileActivity</string>
+    <string name="title_activity_create_password">CreatePasswordActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_call_details">CallDetailsActivity</string>
+    <string name="title_activity_all_recordings">AllRecordingsActivity</string>
+    <string name="title_activity_record_detail">RecordDetailActivity</string>
+    <string name="GOOGLE_MAP_KEY">_WHAT_ARE_YOU_LOOKING_FOR</string>
+    <string name="title_activity_add_friend">AddFriendActivity</string>
+</resources>

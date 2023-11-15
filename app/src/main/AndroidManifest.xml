@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_app_women"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app_women"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Composewomenandroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.AddFriendActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_friend"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.RecordDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_record_detail"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.AllRecordingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_all_recordings"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.CallDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_call_details"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.UserProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.CreatePasswordActivity"
+            android:exported="false"
+            android:label="@string/title_activity_create_password"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.CompleteProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_complete_profile"
+            android:theme="@style/Theme.Composewomenandroid" />
+        <activity
+            android:name=".activity.OtpVerficationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_otp_verfication"
+            android:theme="@style/Theme.Composewomenandroid"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Composewomenandroid">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/GOOGLE_MAP_KEY" />
+    </application>
+
+</manifest>
